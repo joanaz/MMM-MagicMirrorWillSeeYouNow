@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  max-height: 80%;
+  max-width: 80%;
+  margin: auto;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.canvas {
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100px;
+  min-width: 100px;
+
+  /*max-height: 40vh;*/
+  /*max-width: 40vw;*/
+
+  /*margin: 0 15px 15px 0;*/
+  /*display: inline-block;*/
+  /*float: left;*/
+}
+
+.entities {
+  /*font-size: 20px;*/
+}
